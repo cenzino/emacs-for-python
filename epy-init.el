@@ -9,6 +9,11 @@
 )
 
 (add-to-list 'load-path epy-install-dir)
+
+;; Custom file
+(setq custom-file (concat epy-install-dir "custum.el"))
+(load custom-file)
+
 (require 'epy-setup)
 (require 'epy-python)
 (require 'epy-completion)
