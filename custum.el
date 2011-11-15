@@ -7,7 +7,8 @@
  '(cua-mode t nil (cua-base))
  '(fringe-mode (quote (1 . 1)) nil (fringe))
  '(scroll-bar-mode nil)
- '(show-paren-mode t))
+ '(tabbar-mode t nil (tabbar))
+ '(tabbar-mwheel-mode t nil (tabbar)))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.

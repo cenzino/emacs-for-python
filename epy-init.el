@@ -19,5 +19,7 @@
 (require 'epy-completion)
 (require 'epy-editing)
 (require 'epy-bindings)
+(epy-django-snippets)
+;;(epy-setup-checker "pyflakes %f")
 
 (provide 'epy-init)
